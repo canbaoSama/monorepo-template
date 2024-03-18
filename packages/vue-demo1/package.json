@@ -1,0 +1,17 @@
+{
+    "name": "vue-demo1",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "vite",
+        "build": "vue-tsc --noEmit && vite build"
+    },
+    "dependencies": {
+        "@types/node": "20.11.7",
+        "vite-plugin-externals": "0.6.2",
+        "vite-plugin-insert-html": "1.0.1",
+        "vite-plugin-require": "1.1.14",
+        "vite-plugin-static-copy": "0.13.1",
+        "vite-plugin-vue-setup-extend": "0.4.0"
+    }
+}

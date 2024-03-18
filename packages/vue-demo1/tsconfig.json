@@ -1,0 +1,48 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "paths": {
+            "@/*": [
+                "./src/*"
+            ],
+            "@@/*": [
+                "./src/assets/*"
+            ]
+        },
+        "target": "esnext",
+        "useDefineForClassFields": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "strict": true,
+        "jsx": "preserve",
+        "sourceMap": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "lib": [
+            "esnext",
+            "dom"
+        ],
+        "noUnusedLocals": true,
+        "types": [
+            "vite/client"
+        ]
+    },
+    "include": [
+        "src/**/*.ts",
+        "src/**/*.d.ts",
+        "src/**/*.tsx",
+        "src/**/*.vue",
+        "src/**/*.js",
+        "*.json"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist",
+        "*.md"
+    ],
+    "references": [
+        {
+            "path": "./tsconfig.node.json"
+        }
+    ]
+}
